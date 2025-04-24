@@ -1,0 +1,10 @@
+com\example\school_major_api\model\School.class
+com\example\school_major_api\Controller\MajorController.class
+com\example\school_major_api\model\addon\Details_School.class
+com\example\school_major_api\model\Major.class
+com\example\school_major_api\SchoolMajorApiApplication.class
+com\example\school_major_api\Repository\SchoolRepository.class
+com\example\school_major_api\model\addon\Details_Major.class
+com\example\school_major_api\Repository\MajorRepository.class
+com\example\school_major_api\Controller\Schoolcontroller.class
+com\example\school_major_api\model\addon\Name.class
