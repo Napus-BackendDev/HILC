@@ -2,8 +2,6 @@ version: '3.8'
 services:
   app:  
     image: school-major-api  # ใช้ชื่อ image ของ Spring Boot app ที่ build แล้ว
-    depends_on:
-      - postgres
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://trolley.proxy.rlwy.net:22694/railway
       SPRING_DATASOURCE_USERNAME: postgres
