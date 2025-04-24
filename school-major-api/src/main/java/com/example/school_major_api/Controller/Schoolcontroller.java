@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.school_major_api.Repository.SchoolRepository;
 import com.example.school_major_api.model.School;
-import com.example.school_major_api.model.addon.Details;
+import com.example.school_major_api.model.addon.Details_School;
 import com.example.school_major_api.model.addon.Name;
 
 @RestController
@@ -40,7 +40,7 @@ public class Schoolcontroller {
         }
 
         // Check if the details already exist
-        Details details = school.getDetails();
+        Details_School details = school.getDetails();
         List<School> existingDetails = schoolrepo.findByDetails(details);
         if (!existingDetails.isEmpty()) {
             return ResponseEntity.status(HttpStatus.CONFLICT).body("School already exists with the same details.");

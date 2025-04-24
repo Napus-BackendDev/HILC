@@ -37,7 +37,7 @@ public class Major {
     private School school;
 
     @Embedded
-    private Details details;
+    private Details_Major details;
 
     @Embedded
     private Name name;
@@ -59,7 +59,7 @@ public class Major {
     }
 
     // Constructor
-    public Major(UUID id, School school , Details details, Name name, String acronym) {
+    public Major(UUID id, School school , Details_Major details, Name name, String acronym) {
         this.id = id;
         this.school = school;
         this.details = details;

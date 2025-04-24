@@ -5,21 +5,18 @@ import lombok.Data;
 
 @Data
 @Embeddable
-public class Details {
+public class Details_School {
     private String description;
     private String phoneNumber;
     private String email;
 
-
-    public Details() {
+    public Details_School() {
         // Default constructor
     }
 
-    // Constructor for Major
-
 
     // Constructor for School
-    public Details( String description, String phoneNumber, String email) {
+    public Details_School( String description, String phoneNumber, String email ) {
         this.description = description;
         this.phoneNumber = phoneNumber;
         this.email = email;

@@ -32,7 +32,7 @@ public class School {
     private Name name;
 
     @Embedded
-    private Details details;
+    private Details_School details;
 
     private String acronym;
 
@@ -51,7 +51,7 @@ public class School {
         // Default constructor
     }
     
-    public School(UUID id, Name name, Details details, String acronym) {
+    public School(UUID id, Name name, Details_School details, String acronym) {
         this.id = id;
         this.details = details;
         this.name = name;
