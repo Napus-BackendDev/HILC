@@ -13,8 +13,22 @@
 
 ### 🐳 Run with Docker Compose
 
+1. **Go to file School-major-api**
+
 ```bash
-docker-compose up --build
+cd school-major-api
+```
+
+2. **Build image**
+
+```bash
+docker build -t school-major-api .
+```
+
+3. **run container**
+
+```bash
+docker-compose up 
 ```
 
 ### 🔧 Manual Setup (Without Docker)
@@ -105,7 +119,7 @@ cd School-major-api
 
 {
   "school": {
-    "id": "2795b6b7... (ต้องได้มาจากการสร้าง School ก่อน)"
+    "id": "f7e4b965-dfec-4d6e-a7c8-42157f67e998"
   },
   "details": {
     "description": "วิชาชีพด้านระบบสมองกลฝังตัว",
